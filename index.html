@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PV Solutions | Pharmacovigilance Services</title>
 
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f7fb;
+        color: #333;
+    }
+
+    header {
+        background: #0b3d91;
+        color: white;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    nav a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    .hero {
+        background: linear-gradient(rgba(11,61,145,0.8), rgba(11,61,145,0.8)),
+                    url('https://images.unsplash.com/photo-1581091870627-3cdb7c6b4f7b');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 100px 40px;
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 25px;
+        background: #ff9800;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .container {
+        padding: 50px 40px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card h3 {
+        margin-top: 0;
+        color: #0b3d91;
+    }
+
+    .about {
+        background: #e8eefc;
+        padding: 50px 40px;
+        text-align: center;
+    }
+
+    footer {
+        background: #0b3d91;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @media(max-width: 600px){
+        .hero h2 {
+            font-size: 28px;
+        }
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>PV Solutions</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Pharmacovigilance Solutions for Modern Pharma</h2>
+    <p>End-to-end safety services including case processing, signal detection, risk management, and compliance support.</p>
+    <a href="#" class="btn">Get Started</a>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Case Processing</h3>
+            <p>Accurate and timely processing of ICSRs with global compliance standards.</p>
+        </div>
+
+        <div class="card">
+            <h3>Signal Detection</h3>
+            <p>Advanced analytics to identify safety signals and ensure proactive risk management.</p>
+        </div>
+
+        <div class="card">
+            <h3>Medical Review</h3>
+            <p>Expert medical evaluation of adverse events and safety data.</p>
+        </div>
+
+        <div class="card">
+            <h3>Regulatory Reporting</h3>
+            <p>Submission of reports to global regulatory authorities (FDA, EMA, CDSCO).</p>
+        </div>
+
+        <div class="card">
+            <h3>Aggregate Reporting</h3>
+            <p>PSUR, PBRER, DSUR preparation and lifecycle management.</p>
+        </div>
+
+        <div class="card">
+            <h3>PV Audits & Compliance</h3>
+            <p>Ensure adherence to GVP guidelines and inspection readiness.</p>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h2>Why Choose Us?</h2>
+    <p>We combine domain expertise with technology-driven solutions to deliver high-quality pharmacovigilance services for global pharma companies.</p>
+</section>
+
+<footer>
+    <p>© 2026 PV Solutions | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
